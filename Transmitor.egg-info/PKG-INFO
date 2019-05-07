@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: Transmitor
+Version: 1.0
+Summary: network transmitor
+Home-page: http://www.springvi.com/transmitor
+Author: SpringVi
+Author-email: springvi@qq.com
+License: GPLv3
+Description: make your local intranet service can be directly accessed from the internet, just like teamview, but more powerful.
+Keywords: transmitor,bridge,network,intranet
+Platform: 3.7
+Classifier: Development Status :: 1 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)

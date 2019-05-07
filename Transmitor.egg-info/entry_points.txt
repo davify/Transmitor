@@ -1,0 +1,3 @@
+[console_scripts]
+Transmitor = com.cleverworld.spring.Transmitor:main
+

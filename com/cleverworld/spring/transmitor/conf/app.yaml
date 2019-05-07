@@ -1,0 +1,19 @@
+command: {port: 33333}
+connector: {port: 33332}
+logger: {datefmt: '%Y-%m-%d %H:%M:%S %p', format: '[%(asctime)s-%(levelname)s] %(message)s',
+  level: DEBUG}
+transmitor:
+  backLog: 5
+  proxy: {port: 808}
+  services: [
+  '1001,10.44.153.180,62001,31235',
+  '1001,10.10.7.161,3306,31237',
+  '1001,,,3128',
+  '1001,,socks,1080',
+  '1002,,socks,31236'
+  ]
+  toTerminalPort: 30000
+
+#service examples
+# 1001,,,3128 ---> Http Proxy
+# 1001,,socks,1080 ---> Socks Proxy
